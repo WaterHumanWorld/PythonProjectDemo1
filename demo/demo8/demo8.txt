@@ -1,0 +1,49 @@
+常用组件
+标签（Label）：
+
+label = tk.Label(root, text="标签文本")
+label.pack()
+CopyInsert
+按钮（Button）：
+
+button = tk.Button(root, text="按钮文本", command=回调函数)
+button.pack()
+CopyInsert
+输入框（Entry）：
+
+entry = tk.Entry(root)
+entry.pack()
+CopyInsert
+文本框（Text）：
+
+text = tk.Text(root)
+text.pack()
+CopyInsert
+复选框（Checkbutton）：
+
+var = tk.IntVar()
+checkbutton = tk.Checkbutton(root, text="复选框文本", variable=var)
+checkbutton.pack()
+CopyInsert
+单选按钮（Radiobutton）：
+
+var = tk.IntVar()
+radiobutton1 = tk.Radiobutton(root, text="选项1", variable=var, value=1)
+radiobutton2 = tk.Radiobutton(root, text="选项2", variable=var, value=2)
+radiobutton1.pack()
+radiobutton2.pack()
+
+
+
+7列表框（Listbox）：
+
+listbox = tk.Listbox(root)
+listbox.pack()
+listbox.insert(tk.END, "选项1")
+listbox.insert(tk.END, "选项2")
+8菜单（Menu）：
+menu = tk.Menu(root)
+root.config(menu=menu)
+file_menu = tk.Menu(menu)
+menu.add_cascade(label="文件", menu=file_menu)
+file_menu.add_command(label="打开", command=回调函数)

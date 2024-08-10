@@ -1,0 +1,77 @@
+使用Python编写网页通常涉及到Web框架的使用。Python有许多流行的Web框架，如Flask和Django。以下是使用Flask框架编写一个简单网页的示例：
+
+安装Flask
+首先，你需要安装Flask。你可以使用pip来安装：
+
+pip install Flask
+CopyInsert
+创建一个简单的Flask应用
+创建项目目录： 创建一个新的目录来存放你的Flask项目文件。
+
+创建主应用文件： 在项目目录中创建一个名为app.py的文件，并添加以下代码：
+
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+CopyInsert
+创建模板文件： 在项目目录中创建一个名为templates的文件夹，并在其中创建一个名为index.html的文件，添加以下内容：
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flask App</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>Welcome to my Flask web application.</p>
+</body>
+</html>
+CopyInsert
+运行应用
+在项目目录中打开终端或命令提示符，并运行以下命令：
+
+python app.py
+
+这将启动Flask开发服务器，并在浏览器中打开http://127.0.0.1:5000/，你应该能看到你创建的简单网页。
+
+示例解释
+导入Flask和render_template：
+
+from flask import Flask, render_template
+CopyInsert
+创建Flask应用实例：
+
+app = Flask(__name__)
+CopyInsert
+定义路由和视图函数：
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+CopyInsert
+这定义了一个路由/，当用户访问根URL时，会调用home函数，并返回渲染的index.html模板。
+
+运行应用：
+
+if __name__ == '__main__':
+    app.run(debug=True)
+CopyInsert
+这行代码确保只有在直接运行app.py时才会启动Flask开发服务器。debug=True启用调试模式，方便开发时进行调试。
+
+进一步学习
+Flask是一个非常灵活和强大的框架，你可以通过阅读官方文档和教程来进一步学习如何使用Flask创建更复杂的Web应用：
+
+Flask官方文档
+Flask教程
+通过这些资源，你可以学习如何处理表单、数据库集成、用户认证等高级功能。
+
+

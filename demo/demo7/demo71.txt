@@ -1,0 +1,15 @@
+# 自动化 图形界面打包程序 应用
+安装Auto-Py-To-Exe：
+
+pip install auto-py-to-exe
+CopyInsert
+启动Auto-Py-To-Exe：
+
+auto-py-to-exe
+CopyInsert
+配置和打包： 在打开的Web界面中，你可以选择你的Python脚本文件，配置打包选项（如单个文件、图标、隐藏控制台等），然后点击“CONVERT .PY TO .EXE”按钮来生成可执行文件。
+
+参考文档
+Auto-Py-To-Exe GitHub页面
+cx_Freeze官方文档
+通过这些图形化工具，你可以更方便地打包你的Python脚本为可执行文件，而无需手动配置命令行选
