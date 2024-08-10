@@ -1,0 +1,62 @@
+Scikit-learn 是一个用于机器学习的强大库，提供了多种机器学习算法和工具。以下是 Scikit-learn 库的一些主要功能列表：
+
+分类 (Classification)
+K-近邻算法 (K-Nearest Neighbors)
+支持向量机 (Support Vector Machines)
+决策树 (Decision Trees)
+随机森林 (Random Forests)
+梯度提升树 (Gradient Boosting Trees)
+朴素贝叶斯 (Naive Bayes)
+线性判别分析 (Linear Discriminant Analysis)
+二次判别分析 (Quadratic Discriminant Analysis)
+回归 (Regression)
+线性回归 (Linear Regression)
+岭回归 (Ridge Regression)
+Lasso 回归 (Lasso Regression)
+弹性网络 (Elastic Net)
+支持向量回归 (Support Vector Regression)
+决策树回归 (Decision Tree Regression)
+随机森林回归 (Random Forest Regression)
+梯度提升回归 (Gradient Boosting Regression)
+聚类 (Clustering)
+K-均值聚类 (K-Means)
+层次聚类 (Hierarchical Clustering)
+DBSCAN
+高斯混合模型 (Gaussian Mixture Models)
+降维 (Dimensionality Reduction)
+主成分分析 (Principal Component Analysis, PCA)
+线性判别分析 (Linear Discriminant Analysis, LDA)
+截断奇异值分解 (Truncated Singular Value Decomposition, t-SVD)
+非负矩阵分解 (Non-negative Matrix Factorization, NMF)
+模型选择和评估
+交叉验证 (Cross-Validation)
+网格搜索 (Grid Search)
+随机搜索 (Randomized Search)
+模型评估指标 (Metrics for Model Evaluation)
+准确率 (Accuracy)
+精确率 (Precision)
+召回率 (Recall)
+F1 分数 (F1 Score)
+ROC 曲线 (ROC Curve)
+AUC (Area Under the Curve)
+预处理 (Preprocessing)
+标准化 (Standardization)
+归一化 (Normalization)
+缺失值处理 (Handling Missing Values)
+编码分类变量 (Encoding Categorical Variables)
+多项式特征生成 (Polynomial Features)
+特征提取和选择
+特征选择 (Feature Selection)
+特征提取 (Feature Extraction)
+集成方法 (Ensemble Methods)
+Bagging
+Boosting
+** stacking**
+其他功能
+数据集加载 (Loading Datasets)
+数据集分割 (Splitting Datasets)
+管道 (Pipelines)
+模型持久化 (Model Persistence)
+Scikit-learn 提供了丰富的文档和示例，使得开发者可以轻松地使用这些功能来构建和评估机器学习模型。更多详细信息可以参考官方文档：https://scikit-learn.org/stable/documentation.html
+
+ 

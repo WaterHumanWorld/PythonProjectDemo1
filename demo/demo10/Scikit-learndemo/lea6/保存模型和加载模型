@@ -1,0 +1,9 @@
+""" 9. 保存和加载模型
+训练好的模型可以保存下来，以便后续使用。 """
+import joblib
+
+# 保存模型
+joblib.dump(model, 'logistic_regression_model.pkl')
+
+# 加载模型
+loaded_model = joblib.load('logistic_regression_model.pkl')

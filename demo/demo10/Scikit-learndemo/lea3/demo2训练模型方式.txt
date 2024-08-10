@@ -1,0 +1,65 @@
+1. 逻辑回归（Logistic Regression）
+from sklearn.linear_model import LogisticRegression
+
+model = LogisticRegression(random_state=42)
+model.fit(X_train, y_train)
+2. K近邻分类器（K-Nearest Neighbors Classifier）
+from sklearn.neighbors import KNeighborsClassifier
+
+model = KNeighborsClassifier(n_neighbors=5)
+model.fit(X_train, y_train)
+3. 支持向量机分类器（Support Vector Machine Classifier）
+from sklearn.svm import SVC
+
+model = SVC(random_state=42)
+model.fit(X_train, y_train)
+4. 决策树分类器（Decision Tree Classifier）
+from sklearn.tree import DecisionTreeClassifier
+
+model = DecisionTreeClassifier(random_state=42)
+model.fit(X_train, y_train)
+CopyInsert
+5. 梯度提升分类器（Gradient Boosting Classifier）
+from sklearn.ensemble import GradientBoostingClassifier
+
+model = GradientBoostingClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+CopyInsert
+6. 朴素贝叶斯分类器（Naive Bayes Classifier）
+from sklearn.naive_bayes import GaussianNB
+
+model = GaussianNB()
+model.fit(X_train, y_train)
+CopyInsert
+7. 神经网络分类器（Neural Network Classifier）
+from sklearn.neural_network import MLPClassifier
+
+model = MLPClassifier(hidden_layer_sizes=(100,), max_iter=300, random_state=42)
+model.fit(X_train, y_train)
+CopyInsert
+8. AdaBoost分类器（AdaBoost Classifier）
+from sklearn.ensemble import AdaBoostClassifier
+
+model = AdaBoostClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+CopyInsert
+9. 极端随机树分类器（Extra Trees Classifier）
+from sklearn.ensemble import ExtraTreesClassifier
+
+model = ExtraTreesClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+CopyInsert
+10. 线性判别分析（Linear Discriminant Analysis）
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+
+model = LinearDiscriminantAnalysis()
+model.fit(X_train, y_train)
+CopyInsert
+11. 二次判别分析（Quadratic Discriminant Analysis）
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
+
+model = QuadraticDiscriminantAnalysis()
+model.fit(X_train, y_train)
+CopyInsert
+你可以根据具体问题和数据集的特点选择合适的分类器。每种分类器都有其独特的优势和适用场景，通过尝试不同的分类器，你可以找到最适合你的问题的模型。
+ 
